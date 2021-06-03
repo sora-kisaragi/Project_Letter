@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1043042192252184889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1043042192252184895}
+  - component: {fileID: 1043042192252184894}
+  - component: {fileID: 1043042192252184892}
+  - component: {fileID: 1043042192252184893}
+  - component: {fileID: 259583218470987688}
+  - component: {fileID: 907224848580886080}
+  - component: {fileID: 1011828043161630270}
+  m_Layer: 0
+  m_Name: AI_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1043042192252184895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043042192252184889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 159.45609, y: 1061.1018, z: -19.643951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1043042192252184894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043042192252184889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd23eda1bbfd47cd9bcf12ec2be5524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1043042192252184892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043042192252184889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2552d9a91525472284b98e0f736c507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToSpeechControl: {fileID: 0}
+  T_State: {fileID: 1043042192252184893}
+  Char: {fileID: 0}
+  AI_manager: {fileID: 1043042192252184889}
+  UI_NewWord_Panel: {fileID: 0}
+  UI_Button_Input_NewWord: {fileID: 0}
+  UI_Button_Close_NewWord: {fileID: 0}
+  UI_NewWord_Text: {fileID: 0}
+  UI_ReturnWord_Text: {fileID: 0}
+  UI_SettingPanel: {fileID: 0}
+  UI_AI_Text: {fileID: 0}
+  UI_InputText: {fileID: 0}
+  UI_InputArea: {fileID: 0}
+  UI_AI_Text_Area: {fileID: 0}
+  UI_OpenInput_Button: {fileID: 0}
+  UI_SendButton: {fileID: 0}
+  UI_SetingButton: {fileID: 0}
+  UI_Setting_Close_Button: {fileID: 0}
+  UI_News_Text: {fileID: 0}
+  UI_Clock_Text: {fileID: 0}
+  UI_Date_Text: {fileID: 0}
+  UI_Temperature_Text: {fileID: 0}
+  UI_Temperature_Icon: {fileID: 0}
+  UI_Set_Name: {fileID: 0}
+  saveload_data: {fileID: 0}
+  Button_News_Open: {fileID: 0}
+  UI_Voice_SettingPanel: {fileID: 0}
+--- !u!114 &1043042192252184893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043042192252184889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a795a9d756f4edcb4694928fdfebe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &259583218470987688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043042192252184889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06879f7f2b1314e1c9c3a60494fc344f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  latitude: 0
+  longitude: 0
+  altitude: 0
+--- !u!114 &907224848580886080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043042192252184889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0075a92b4d224496b8bff7ccf5069a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseUrl: http://api.openweathermap.org/data/2.5/weather
+  ApiKey: 3147af9d645977c4fbc600f847a6cf0a
+  TimeOutSeconds: 20
+--- !u!114 &1011828043161630270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043042192252184889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36ee00678665440c83928b4bd80e4ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  latitude: 34
+  longitude: 139
+  Loader: {fileID: 907224848580886080}
+  RW_location: {fileID: 259583218470987688}
+  WeatherText: {fileID: 0}
+  WindForceText: {fileID: 0}
+  TempCurrentText: {fileID: 0}
+  TempMaxText: {fileID: 0}
+  TempMinText: {fileID: 0}
+  ThresholdSeconds: 3600

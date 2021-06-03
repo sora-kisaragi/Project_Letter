@@ -1,0 +1,246 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ディア　素材分け完了vr11.moc3",
+		"Textures": [
+			"ディア　素材分け完了vr11.1024/texture_00.png"
+		],
+		"Physics": "ディア　素材分け完了vr11.physics3.json",
+		"DisplayInfo": "ディア　素材分け完了vr11.cdi3.json",
+		"Motions": {
+			"Sleep": [
+				{
+					"File": "motions/Dear_m_01.motion3.json"
+				}
+			],
+			"Startup": [
+				{
+					"File": "motions/Dear_m_02.motion3.json"
+				}
+			],
+			"What": [
+				{
+					"File": "motions/Dear_m_03.motion3.json"
+				}
+			],
+			"Sad": [
+				{
+					"File": "motions/Dear_m_04.motion3.json"
+				}
+			],
+			"Hmm？": [
+				{
+					"File": "motions/Dear_m_05.motion3.json"
+				}
+			],
+			"Cry": [
+				{
+					"File": "motions/Dear_m_06.motion3.json"
+				}
+			],
+			"Yeah": [
+				{
+					"File": "motions/Dear_m_07.motion3.json"
+				}
+			],
+			"Ah～": [
+				{
+					"File": "motions/Dear_m_08.motion3.json"
+				}
+			],
+			"Shy": [
+				{
+					"File": "motions/Dear_m_09.motion3.json"
+				}
+			],
+			"Sorry": [
+				{
+					"File": "motions/Dear_m_10.motion3.json"
+				}
+			],
+			"Dissatisfaction": [
+				{
+					"File": "motions/Dear_m_11.motion3.json"
+				}
+			],
+			"Irritation": [
+				{
+					"File": "motions/Dear_m_12.motion3.json"
+				}
+			],
+			"Angry": [
+				{
+					"File": "motions/Dear_m_13.motion3.json"
+				}
+			],
+			"Think": [
+				{
+					"File": "motions/Dear_m_14.motion3.json"
+				}
+			],
+			"Smile": [
+				{
+					"File": "motions/Dear_m_15.motion3.json"
+				}
+			],
+			"Love": [
+				{
+					"File": "motions/Dear_m_16.motion3.json"
+				}
+			],
+			"Surprised": [
+				{
+					"File": "motions/Dear_m_17.motion3.json"
+				}
+			],
+			"Scared": [
+				{
+					"File": "motions/Dear_m_18.motion3.json"
+				}
+			],
+			"Sleepiness": [
+				{
+					"File": "motions/Dear_m_19.motion3.json"
+				}
+			],
+			"Nap": [
+				{
+					"File": "motions/Dear_m_20.motion3.json"
+				}
+			],
+			"Sleepy": [
+				{
+					"File": "motions/Dear_m_21.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "motions/Dear_m_22.motion3.json"
+				},
+				{
+					"File": "motions/Dear_m_23.motion3.json"
+				},
+				{
+					"File": "motions/Dear_m_24.motion3.json"
+				}
+			],
+			"LookRight": [
+				{
+					"File": "motions/Dear_m_25.motion3.json"
+				}
+			],
+			"LookLeft": [
+				{
+					"File": "motions/Dear_m_26.motion3.json"
+				}
+			],
+			"LookUp": [
+				{
+					"File": "motions/Dear_m_27.motion3.json"
+				}
+			],
+			"LookDown": [
+				{
+					"File": "motions/Dear_m_28.motion3.json"
+				}
+			],
+			"TakeABow": [
+				{
+					"File": "motions/Dear_m_29.motion3.json"
+				}
+			],
+			"Up": [
+				{
+					"File": "motions/Dear_m_30.motion3.json"
+				}
+			],
+			"Down": [
+				{
+					"File": "motions/Dear_m_31.motion3.json"
+				}
+			],
+			"Tap＠Head": [
+				{
+					"File": "motions/Dear_m_32.motion3.json"
+				}
+			],
+			"Tap＠Neck": [
+				{
+					"File": "motions/Dear_m_33.motion3.json"
+				}
+			],
+			"Tap＠Lipｓ": [
+				{
+					"File": "motions/Dear_m_34.motion3.json"
+				}
+			],
+			"Tap＠Bust": [
+				{
+					"File": "motions/Dear_m_35.motion3.json"
+				}
+			],
+			"Tap＠Waist": [
+				{
+					"File": "motions/Dear_m_36.motion3.json"
+				}
+			],
+			"Tap＠Keypoint": [
+				{
+					"File": "motions/Dear_m_37.motion3.json"
+				}
+			],
+			"Tap＠Eye": [
+				{
+					"File": "motions/Dear_m_38.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitAreaWaist",
+			"Name": "HitAreaWaist"
+		},
+		{
+			"Id": "HitAreaBust",
+			"Name": "HitAreaBust"
+		},
+		{
+			"Id": "HitAreaNeck",
+			"Name": "HitAreaNeck"
+		},
+		{
+			"Id": "HitAreaLips",
+			"Name": "HitAreaLips"
+		},
+		{
+			"Id": "HitAreaHead",
+			"Name": "HitAreaHead"
+		},
+		{
+			"Id": "HitAreaKeypoint",
+			"Name": "HitAreaKeypoint"
+		},
+		{
+			"Id": "HitAreaEye",
+			"Name": "HitAreaEye"
+		}
+	]
+}

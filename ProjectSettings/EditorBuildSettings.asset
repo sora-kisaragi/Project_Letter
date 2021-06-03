@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Live2D/Cubism/Samples/Animation/Animation.unity
+    guid: 803f5b38f7c073a4abd927303df13812
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 0b100b5467fd04cd2b149c7b6ea712d6
+  - enabled: 1
+    path: Assets/Scenes/Main_ios.unity
+    guid: 6e58a52da0f08416ca06479ac823cd2c
+  - enabled: 1
+    path: Assets/Scenes/Main_Android.unity
+    guid: f8ac49562014d4c6f8bfcc5db88ec729
+  - enabled: 0
+    path: Assets/Plugins/GoodEnough/iOS TTS Example/ExampleScene.unity
+    guid: 5151d6fd614114869b0b76e9491cc83d
+  - enabled: 0
+    path: Assets/Scripts/FantomPlugin/Demo/Scenes/SpeechRecognizerTest.unity
+    guid: 5e048b3a449b76349a587b48167046f9
+  m_configObjects: {}
