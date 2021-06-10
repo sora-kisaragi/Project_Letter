@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Title : MonoBehaviour
 {
+    public Text test;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class Title : MonoBehaviour
         }
         if (Input.GetMouseButton(0))
         {
+            test.text = "Go to Next Scene";
             SceneManager.LoadScene("Main_ios");
         }
     }
