@@ -394,15 +394,15 @@ public class Main_Event : MonoBehaviour
         ///
         /// Android
 
-
+        var ACCESS_TOKEN = "U4QtSFkwi9iKruvcqgbvqelDxxBcTRJuDNbpe4wOOgF";
 #if UNITY_EDITOR
-        var ACCESS_TOKEN = "U4QtSFkwi9iKruvcqgbvqelDxxBcTRJuDNbpe4wOOgF";
+        ACCESS_TOKEN = "U4QtSFkwi9iKruvcqgbvqelDxxBcTRJuDNbpe4wOOgF";
 #elif UNITY_STANDALONE
-        var ACCESS_TOKEN = "U4QtSFkwi9iKruvcqgbvqelDxxBcTRJuDNbpe4wOOgF";
+        ACCESS_TOKEN = "U4QtSFkwi9iKruvcqgbvqelDxxBcTRJuDNbpe4wOOgF";
 #elif UNITY_ANDROID
-        var ACCESS_TOKEN = "iQu5aHuLKgfdH8cnexqtjdCKFATvubqjeiuOO8QgUyM";
+        ACCESS_TOKEN = "iQu5aHuLKgfdH8cnexqtjdCKFATvubqjeiuOO8QgUyM";
 #elif UNITY_IOS
-        var ACCESS_TOKEN = "PHyjayJIPYIb2lhuPHbTq1lqX1i4kgQoh3v10U5V7dn";
+        ACCESS_TOKEN = "PHyjayJIPYIb2lhuPHbTq1lqX1i4kgQoh3v10U5V7dn";
 #endif
 
         using (var client = new HttpClient())

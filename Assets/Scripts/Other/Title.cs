@@ -16,6 +16,12 @@ public class Title : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButton(0))
+        {
+            test.text = "Go to Next Scene";
+            SceneManager.LoadScene("Main_ios");
+            Debug.Log("クリックされたよ");
+        }
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
@@ -30,11 +36,7 @@ public class Title : MonoBehaviour
 #endif
             }
         }
-        if (Input.GetMouseButton(0))
-        {
-            test.text = "Go to Next Scene";
-            SceneManager.LoadScene("Main_ios");
-        }
+
     }
 
 
