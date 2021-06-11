@@ -174,14 +174,14 @@ public class Main_Event : MonoBehaviour
             }
             else if (touch.phase == TouchPhase.Ended)
             {
-                if (SceneManager.GetActiveScene().name == "Main_ios")
-                {
-                    SceneManager.LoadScene("Main_Android");
-                }
-                else if (SceneManager.GetActiveScene().name == "Main_Android")
-                {
-                    SceneManager.LoadScene("Main_ios");
-                }
+                // if (SceneManager.GetActiveScene().name == "Main_ios")
+                // {
+                //     SceneManager.LoadScene("Main_Android");
+                // }
+                // else if (SceneManager.GetActiveScene().name == "Main_Android")
+                // {
+                //     SceneManager.LoadScene("Main_ios");
+                // }
             }
         }
 

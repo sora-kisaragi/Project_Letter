@@ -522,9 +522,9 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: test
+  cameraUsageDescription: "AR\u30AB\u30E1\u30E9\u3084\u753B\u50CF\u691C\u7D22\u306E\u305F\u3081\u306B\u5229\u7528\u3057\u307E\u3059\u3002"
   locationUsageDescription: "\u5929\u6C17\u60C5\u5831\u7B49\u306E\u53D6\u5F97\u306E\u305F\u3081\u306B\u73FE\u5728\u5730\u60C5\u5831\u3092\u5229\u7528\u3057\u307E\u3059\u3002"
-  microphoneUsageDescription: test
+  microphoneUsageDescription: "\u97F3\u58F0\u5165\u529B\u30B7\u30B9\u30C6\u30E0\u306E\u305F\u3081\u306B\u5229\u7528\u3057\u307E\u3059\u3002"
   switchNMETAOverride: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
@@ -848,7 +848,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 2
+  activeInputHandler: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []

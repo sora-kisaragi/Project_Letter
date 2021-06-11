@@ -51,6 +51,8 @@ public class ExampleScript : MonoBehaviour
         ///今回だけの特殊措置 声のデフォルト設定を変更
          _currentVoiceIndex = (_currentVoiceIndex + 1) % _voices.Count;
         UpdateVoiceDetails();
+        UpdateSpeechRate(0.4f);
+        UpdatePitch(1.2f);
     }
 
     private void CacheAllVoices()

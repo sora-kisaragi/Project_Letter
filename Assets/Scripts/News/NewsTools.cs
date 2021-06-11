@@ -64,7 +64,7 @@ namespace Hanachiru.News
             string s = RemoveCharacter(text, "<[^>]*?>");
 
             if (!shouldDeleteSpecialCharacter) return s;
-
+            //print("なんかよくわからん");
             return RemoveCharacter(s, PATTERN_FOR_XML_OF_GOOGLE_API);
         }
 

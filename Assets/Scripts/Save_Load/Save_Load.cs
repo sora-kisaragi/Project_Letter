@@ -37,9 +37,7 @@ public class Save_Load : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Button_Load.onClick.AddListener(() => Load_Data());
-        Button_Close.onClick.AddListener(() => Close_Self());
-        Button_Save.onClick.AddListener(() => Save_Data(input_Name.GetComponent<Text>().text));
+                
         #if UNITY_EDITOR
         fileName = "/PlayerDate_Editor.csv";
         #elif UNITY_IOS
@@ -47,8 +45,12 @@ public class Save_Load : MonoBehaviour
         #elif UNITY_ANDROID
         fileName = "/PlayerDate_android.csv";
         #elif UNITY_STANDALONE
-        fileName = "/PlayerDate_Standalloe.csv";
+        fileName = "/PlayerDate_Standallone.csv";
         #endif
+        Button_Load.onClick.AddListener(() => Load_Data());
+        Button_Close.onClick.AddListener(() => Close_Self());
+        Button_Save.onClick.AddListener(() => Save_Data(input_Name.GetComponent<Text>().text));
+
     }
 
     // Update is called once per frame
