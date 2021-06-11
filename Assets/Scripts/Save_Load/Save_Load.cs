@@ -45,7 +45,7 @@ public class Save_Load : MonoBehaviour
         #elif UNITY_ANDROID
         fileName = "/PlayerDate_android.csv";
         #elif UNITY_STANDALONE
-        fileName = "/PlayerDate_Standallone.csv";
+        fileName = "/PlayerDate_Standalone.csv";
         #endif
         Button_Load.onClick.AddListener(() => Load_Data());
         Button_Close.onClick.AddListener(() => Close_Self());
