@@ -11,8 +11,8 @@ public class KeywordTest : MonoBehaviour {
     // Use this for initialization
     void Start () {
         keywords = new string[2][];
-        keywords[0] = new string[] {"りんご","アップル"};//ひらがなでもカタカナでもいい
-        keywords[1] = new string[] {"みかん","オレンジ"};
+        keywords[0] = new string[] {"シンシアリ","sincerely"};//ひらがなでもカタカナでもいい
+        keywords[1] = new string[] {"スタート","Start","起動","きどう"};
 
         keyCon = new KeywordController(keywords,true);//keywordControllerのインスタンスを作成
         keyCon.SetKeywords();//KeywordRecognizerにkeywordsを設定する
