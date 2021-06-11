@@ -2,11 +2,14 @@ using System;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Windows.Speech;
+using UnityBoyomichanClient;
 
 public class KeywordTest : MonoBehaviour {
 
     private KeywordController keyCon;
     private string[][] keywords;
+    private BoyomichanClient boyomi;
+
 
     // Use this for initialization
     void Start () {
@@ -18,6 +21,10 @@ public class KeywordTest : MonoBehaviour {
         keyCon.SetKeywords();//KeywordRecognizerにkeywordsを設定する
         keyCon.StartRecognizing(0);//シーン中で音声認識を始めたいときに呼び出す
         keyCon.StartRecognizing(1);
+
+        boyomi = new BoyomichanClient("127.0.0.1", 50001);
+
+        
     }
 
     // Update is called once per frame
@@ -33,4 +40,7 @@ public class KeywordTest : MonoBehaviour {
             keyCon.hasRecognized[1] = false;
         }
     }
+
+
+
 }
